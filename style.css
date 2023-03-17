@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+main{
+    /* border: 1px solid red; */
+    overflow-x: hidden;
+}
+.menu{
+    position: relative;
+    top: -28px;
+}
+
+
+.menu i {
+    color: rgb(252, 235, 138);
+}
+.icons{
+    position: relative;
+    top: -28px;
+}
+
+.icons i {
+    padding: 0 10px;
+    color: grey;
+}
+.herosection{
+    text-align: center;
+    /* justify-content: center;
+    padding: 50px 0; */
+}
+.herosection h2 {
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.herosection h5{
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+}
+.inner{
+    border-left: 1px solid rgb(252, 235, 138);
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    /* width: 50%; */
+}
+.inner img {
+    transform: rotate(-45deg) !important;
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+}
+.roast{
+    display: inline-block;
+    position: relative;
+    top: 4rem;
+    left: -5rem;
+    color: white;
+    text-align: end;
+    line-height: 1;
+}
+.roast span{
+    color: grey;
+}
+.dark_roast{
+    color: grey;
+    display: inline-block;
+    position: relative;
+    top: 4rem;
+    left: 12rem
+
+}
+.light_roast{
+    color: grey;
+    display: inline-block;
+    position: relative;
+    top: 17rem;
+    left: 6rem
+}
+.decafinated{
+    color: grey;
+    display: inline-block;
+    position: relative;
+    top: 17rem;
+    left: -24rem ;
+}
+.coffeebeans{
+    align-items: center;
+    color: white;
+}
+.coffeebeans mark {
+    color: rgb(252, 235, 138);
+    background-color: transparent;
+}
+
+.coffeeBeanText h2 {
+    font-size:x-large;
+    font-family: 'EB Garamond', serif;
+}
+.coffeebeans h5{
+    color: rgb(252, 235, 138);
+    font-weight: 200;
+    font-family: 'EB Garamond', serif;
+}
+.coffeebeans span{
+    color: grey;
+    font-size: smaller;
+}
+.coffeebeans button{
+    background-color: #333;
+    outline: none;
+    color: white;
+    border: 1px solid #757474;
+    padding: 5px 15px;
+}
+.coffeeBeanText{
+    align-items: center;
+    margin: auto 0;
+    text-align: start;
+    /* display: inline-block; */
+     /* margin-top: 6rem */
+}
+
+
+
+.line{
+    height: 22px;
+    width: 3px !important;
+    color: rgb(252, 235, 138);
+    background-color: rgb(252, 235, 138);
+    margin: 0 auto;
+    top: 63px;
+    position: relative;
+}
+.line1{
+    height: 104px;
+    width: 1px !important;
+    color: rgb(44, 44, 42);
+    background-color: rgb(68 66 58);
+    margin: 0 auto;
+    top: 39px;
+    position: relative;
+}
+.line3{
+    height: 104px;
+    width: 1px !important;
+    color: rgb(44, 44, 42);
+    background-color: rgb(68 66 58);
+    margin: 0 auto;
+    top: 39px;
+    position: relative;
+}
+.line2{
+    height: 22px;
+    width: 3px !important;
+    color: rgb(252, 235, 138);
+    background-color: rgb(252, 235, 138);
+    margin: 0 auto;
+    top: -13px;
+    position: relative;
+}
+
+/* .upper-comma{
+    color: white;
+    margin: 0 auto;
+    height: 1px;
+    width: 1px;
+} */
+.button_text{
+    padding: 10px 250px;
+    margin: 0 auto;
+}
+.button_text .aboutCoffee{
+    color: grey;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.button_text .aboutCoffee mark {
+    color: white;
+    background-color: transparent;
+}
+.textButton{
+    background-color: rgb(252, 235, 138);
+    color: rgb(184, 184, 184);
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+@media only screen and (min-width:393px) and (max-width:800px) {
+    body {
+        overflow-x: hidden;
+    }
+    .herosection{
+        text-align: center;
+        justify-content: center;
+        padding: 10px 0;
+        margin: 0;
+
+    }
+    .herosection h2 {
+        color: white;
+        font-family: 'EB Garamond', serif;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    .herosection h5{
+        color: white;
+        font-family: 'EB Garamond', serif;
+        font-weight: normal;
+
+    }
+    .inner img{
+        /* height: 50px; */
+        /* width: 50px; */
+    }
+    .button_text{
+        padding: 5px 10px;
+    }
+    .roast{
+        display: inline-block;
+        position: relative;
+        top: 4rem;
+        left: -3rem;
+        color: white;
+        text-align: end;
+        line-height: 1;
+        border: 1px solid transparent;
+        /* font-size: 5px; */
+    }
+    .roast h6 {
+        font-size: 12px;
+    }
+    .roast p {
+        font-size: 10px;
+    }
+    .roast span{
+        color: grey;
+        display: none;
+    }
+    .dark_roast{
+        color: grey;
+        display: inline-block;
+        position: relative;
+        top: 4rem;
+        left: 7rem;
+    
+    }
+    .light_roast{
+        color: grey;
+        display: inline-block;
+        position: relative;
+        top: 17rem;
+        left: 2rem;
+    }
+    .decafinated{
+        color: grey;
+        display: inline-block;
+        position: relative;
+        top: 15rem;
+        left: -8rem ;
+    }
+}
+
+.logo{
+    position: relative;
+    left: 38px;
+    top: -14px;
+}
+
+.herosection_details{
+
+}
+
+/* .fa-bars1{
+    content: "\f0c9";
+    top: -27px;
+    left: -5px;
+    position: relative;
+} */
+
+.comma{
+    position: relative;
+    top: -28px;
+    /* flex-direction: \; display: contents; */
+    left: 643px;
+}

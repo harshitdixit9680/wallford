@@ -206,12 +206,7 @@ main{
     body {
         overflow-x: hidden;
     }
-    .herosection {
-        text-align: center;
-        justify-content: center;
-        padding: 0px 34px;
-        margin: 4px;
-    }
+  
     .herosection h2 {
         color: white;
         font-family: 'EB Garamond', serif;
@@ -240,7 +235,7 @@ main{
         display: inline-block;
         position: relative;
         top: 4rem;
-        left: -3rem;
+        left: -2rem;
         color: white;
         text-align: end;
         line-height: 1;
@@ -286,6 +281,35 @@ main{
         margin: 13px auto;
     }
 }
+
+
+
+@media only screen and (min-width:390px) and (max-width:801px){
+    .herosection {
+        text-align: center;
+        justify-content: center;
+        padding: 0px 34px;
+        margin: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo{
     position: relative;

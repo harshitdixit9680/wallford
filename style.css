@@ -10,8 +10,7 @@ main{
     overflow-x: hidden;
 }
 .menu{
-    position: relative;
-    top: -28px;
+    margin-top: -42px;
 }
 
 
@@ -166,7 +165,7 @@ main{
     width: 3px !important;
     color: rgb(252, 235, 138);
     background-color: rgb(252, 235, 138);
-    margin: 0 auto;
+    margin: 42px auto;
     top: -13px;
     position: relative;
 }
@@ -201,16 +200,15 @@ main{
     outline: none;
 }
 
-@media only screen and (min-width:393px) and (max-width:800px) {
+@media only screen and (min-width:200px) and (max-width:800px) {
     body {
         overflow-x: hidden;
     }
-    .herosection{
+    .herosection {
         text-align: center;
         justify-content: center;
-        padding: 10px 0;
-        margin: 0;
-
+        padding: 0px 34px;
+        margin: 4px;
     }
     .herosection h2 {
         color: white;
@@ -229,7 +227,7 @@ main{
         /* width: 50px; */
     }
     .button_text{
-        padding: 5px 10px;
+        padding: 29px 18px;
     }
     .roast{
         display: inline-block;
@@ -295,7 +293,36 @@ main{
 
 .comma{
     position: relative;
-    top: -28px;
-    /* flex-direction: \; display: contents; */
-    left: 643px;
+    top: 20px;
+    /* left: 643px; */
+    margin: -31px;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+}
+.img-fluid {
+    max-width: 111%;
+    height: auto;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }

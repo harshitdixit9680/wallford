@@ -10,14 +10,21 @@ main{
     overflow-x: hidden;
 }
 .menu{
-    margin-top: -42px;
+    margin-top: -66px;
+    cursor: pointer;
 }
 
+/* .menu:hover{
+color: #333;
+} */
 .herosection_image{
     
 }
 .menu i {
     color: rgb(252, 235, 138);
+}
+.menu :hover{
+    color:grey;
 }
 .icons{
     position: relative;
@@ -26,7 +33,13 @@ main{
 
 .icons i {
     padding: 0 10px;
+    color: rgb(252, 235, 138);
+    cursor: pointer;
+}
+.icons i:hover {
+   
     color: grey;
+  
 }
 .herosection{
     text-align: center;
@@ -276,10 +289,7 @@ main{
         left: -8rem ;
     }
   
-    /* .button_text{
-        padding: 26px 56px;
-        margin: 13px auto;
-    } */
+ 
 }
 
 

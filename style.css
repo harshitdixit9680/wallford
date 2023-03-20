@@ -13,7 +13,9 @@ main{
     margin-top: -42px;
 }
 
-
+.herosection_image{
+    
+}
 .menu i {
     color: rgb(252, 235, 138);
 }
@@ -222,12 +224,17 @@ main{
         font-weight: normal;
 
     }
-    .inner img{
-        /* height: 50px; */
-        /* width: 50px; */
-    }
+   
     .button_text{
         padding: 29px 18px;
+    }
+    .herosection_image{
+        width: 334px;
+        position: relative;
+        /* left: -13px; */
+        /* margin-left: 142px; */
+        margin: auto;
+        text-align: -webkit-match-parent;
     }
     .roast{
         display: inline-block;
@@ -263,7 +270,8 @@ main{
         display: inline-block;
         position: relative;
         top: 17rem;
-        left: 2rem;
+        left: 1.5rem;
+
     }
     .decafinated{
         color: grey;
@@ -271,6 +279,11 @@ main{
         position: relative;
         top: 15rem;
         left: -8rem ;
+    }
+  
+    .button_text{
+        padding: 26px 56px;
+        margin: 13px auto;
     }
 }
 
@@ -325,4 +338,27 @@ main{
 .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
+}
+
+.letf{
+    margin-right: 1305px;
+    position: relative;
+    top: 310px;
+    cursor: pointer;
+}
+
+.rigth{
+    position: relative;
+    top: 310px;
+    cursor: pointer;
+}
+
+.rigth:hover{
+color: #757474;
+}
+.letf:hover{
+color: #757474;
+}
+.but:hover{
+color: #757474;
 }

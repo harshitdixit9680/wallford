@@ -112,6 +112,7 @@ color: #333;
 .coffeebeans{
     align-items: center;
     color: white;
+    margin-top: -148px;
 }
 .coffeebeans mark {
     color: rgb(252, 235, 138);
@@ -159,7 +160,7 @@ color: #333;
     position: relative;
 }
 .line1{
-    height: 104px;
+    height: 126px;
     width: 1px !important;
     color: rgb(44, 44, 42);
     background-color: rgb(68 66 58);
@@ -289,7 +290,11 @@ color: #333;
         top: 15rem;
         left: -8rem ;
     }
-  
+    .ingi1 {
+        width: 89vw;
+        margin-top: 62px;
+        margin-left: -20px;
+    }
  
 }
 
@@ -441,3 +446,7 @@ background-color: #fcfcfc;
 }
 
 
+.ingi{
+    width: 456px;
+    margin-top: 62px;
+}

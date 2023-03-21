@@ -131,13 +131,14 @@ color: #333;
     color: grey;
     font-size: smaller;
 }
-.coffeebeans button{
+.but{
     background-color: #333;
     outline: none;
     color: white;
     border: 1px solid #757474;
     padding: 5px 15px;
 }
+
 .coffeeBeanText{
     align-items: center;
     margin: auto 0;
@@ -301,6 +302,29 @@ color: #333;
         padding: 0px 34px;
         margin: 4px;
     }
+    .coffeeBeanText {
+        align-items: center;
+        margin: auto 5px;
+        text-align: start;
+        display: inline-block;
+        margin-top: -2rem;
+        font-size: 35px;
+    }
+    .lin{
+        margin-top: 42px;
+    }
+    .button_text .aboutCoffee {
+        color: grey;
+        font-family: 'EB Garamond', serif;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .ing{
+        margin-top: -104px;
+    }
+  
 }
 
 
@@ -310,7 +334,24 @@ color: #333;
 
 
 
-
+@media only screen and (min-width:576px) and (max-width:801px){
+    .but {
+        background-color: #333;
+        outline: none;
+        color: white;
+        border: 1px solid #757474;
+        padding: 8px 77px;
+        margin-left: -50px;
+    }
+    .col-sm-6 {
+        flex: 0 0 auto;
+        width: 102%;
+    }
+    .col-sm-4 {
+        flex: 0 0 auto;
+        width: 97.333333%;
+    }
+}
 
 
 
@@ -325,6 +366,7 @@ color: #333;
     position: relative;
     left: 38px;
     top: -14px;
+    cursor: pointer;
 }
 
 .herosection_details{
@@ -394,5 +436,8 @@ color: #757474;
 color: #757474;
 }
 .but:hover{
-color: #757474;
+color: #141414;
+background-color: #fcfcfc;
 }
+
+

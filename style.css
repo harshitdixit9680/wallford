@@ -281,7 +281,7 @@ color: #333;
   }
 
   .ing {
-    margin-top: -104px;
+    margin-top: 19px;
   }
 }
 
@@ -385,6 +385,8 @@ color: #333;
 .img-fluid {
   max-width: 111%;
   height: auto;
+  padding: 13px;
+  margin-left: -21px;
 }
 
 .navbar > .container,
